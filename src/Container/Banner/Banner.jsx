@@ -68,12 +68,12 @@ const Banner = () => {
                         viewport={{ once: false, amount: 0.7 }}
 
                         className='flex max-w-max gap-x-6 mt-5 items-center  mb-12 mx-auto lg:mx-0'>
-                        <button className='btn  bg-pink-700 text-white relative'>
+                        <button className='btn  bg-pink-700 hover:bg-pink-700  text-white relative hover:scale-110 ease-in-out duration-100 group'>
 
                             About Me
-                            <img className='h-12 w-12 absolute top-1/2 -translate-y-1/2 -right-10' src={rightArrow} alt="" />
+                            <img className='h-10 w-10 absolute top-1/2 -translate-y-1/2 -right-8 group-hover:-right-10' src={rightArrow} alt="" />
                         </button>
-                        <a href="" className='ml-6 font-semibold text-white'>My Portfolio</a>
+                        <a href="" className='ml-7 font-semibold text-white'>My Portfolio</a>
                     </motion.div>
                 </div>
                 <motion.ul
