@@ -1,10 +1,22 @@
+import { Link } from "react-scroll";
+// import logoName from '../../assets/logo-removebg-preview.jpg'
 const Navbar = () => {
     const navOption = <>
-        <li><a>Home</a></li>
-        <li><a>About</a></li>
-        <li><a>Service</a></li>
-        <li><a>Skills</a></li>
-        <li><a>Contact Me</a></li>
+        <li>
+            <Link to='home'><a>Home</a></Link>
+        </li>
+        <li>
+            <Link to='about'><a>About</a></Link>
+        </li>
+        <li>
+            <Link to='service'><a>Service</a></Link>
+        </li>
+        <li>
+            <Link to="skill"><a>Skills</a></Link>
+        </li>
+        <li>
+            <Link to="contact-me"><a>Contact Me</a></Link>
+        </li>
     </>
     return (
         <div>
@@ -31,7 +43,9 @@ const Navbar = () => {
                             {navOption}
                         </ul>
 
-                        <a className="text-white text-xl ">Waheedul Islam</a>
+                        <a className="text-white text-xl ">Waheedul Islam
+                            {/* <img src={logoName} alt="" /> */}
+                        </a>
                     </div>
 
                 </div>

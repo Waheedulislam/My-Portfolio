@@ -1,20 +1,24 @@
-// import Banner from "../../Container/Banner/Banner";
 import ParticlesComponent from "../../Components/Particles/Particles";
+import About from "../../Container/About/About";
+import Banner from "../../Container/Banner/Banner";
 import Navbar from "../../Container/Navbar/Navbar";
-import bannerImage from '../../assets/banner2.jpeg'
-
+import Service from "../../Container/Service/Service";
+import Skills from "../../Container/Skills/Skills";
 const Home = () => {
     return (
-
-        <div style={{ backgroundImage: `url(${bannerImage})` }} className="background">
+        <div>
+            {/* Particles  */}
             <ParticlesComponent />
+
             <div className='max-w-screen-xl	mx-auto'>
                 <Navbar />
-
+                <Banner />
+                <About />
+                <Service />
+                <Skills />
             </div>
-
-            {/* <Banner /> */}
         </div>
+
     );
 };
 
