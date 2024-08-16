@@ -13,8 +13,8 @@ const Banner = () => {
     return (
         <div id="home">
 
-            <div className='flex translate-y-1/2 mt-2 '>
-                <div className='flex flex-col gap-y-2 pt-3'>
+            <div className=' flex lg:grid lg:grid-cols-2 translate-y-1/2 mt-2 '>
+                <div className='flex flex-col gap-y-6 pt-3'>
                     <div className='flex-1 text-center
                      font-secondary lg:text-left'>
                         <motion.h1
@@ -56,7 +56,9 @@ const Banner = () => {
                         initial='hidden'
                         whileInView={'show'}
                         viewport={{ once: false, amount: 0.7 }}
-                        className='mb-auto mx-w-lg my-2 font-semibold text-white mx-auto text-center lg:text-left lg:mx-0'>
+                        className='mb-auto mx-w-lg my-2 mx-8 
+                         font-semibold text-white  text-
+                          lg:text-left lg:mx-0'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
                         Animi debitis fugiat incidunt nemo, corporis quis reprehenderit,
 
@@ -88,6 +90,10 @@ const Banner = () => {
                         {/* <a href="" className='ml-7 font-semibold text-white'>My Portfolio</a> */}
                     </motion.div>
                 </div>
+
+
+                {/* social  */}
+
                 <motion.ul
                     variants={fadeIn('down', 0.4)}
                     initial='hidden'
@@ -103,6 +109,7 @@ const Banner = () => {
             </div>
 
         </div>
+
     );
 };
 
