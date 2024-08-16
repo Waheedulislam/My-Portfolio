@@ -68,12 +68,24 @@ const Banner = () => {
                         viewport={{ once: false, amount: 0.7 }}
 
                         className='flex max-w-max gap-x-6 mt-5 items-center  mb-12 mx-auto lg:mx-0'>
-                        <button className='btn  bg-pink-700 hover:bg-pink-700  text-white relative hover:scale-110 ease-in-out duration-100 group'>
+                        <button className='btn  bg-pink-700 text-xl hover:bg-pink-700  text-white relative hover:scale-110 ease-in-out duration-100 group'>
 
                             About Me
                             <img className='h-10 w-10 absolute top-1/2 -translate-y-1/2 -right-8 group-hover:-right-10' src={rightArrow} alt="" />
                         </button>
-                        <a href="" className='ml-7 font-semibold text-white'>My Portfolio</a>
+
+                        <TypeAnimation sequence={[
+                            'My Portfolio.',
+                            2000,
+
+                        ]}
+                            speed={50}
+                            className=' text-white px-2 font-bold ml-7  bg-pink-700
+                             rounded-lg'
+                            wrapper='span'
+                            repeat={Infinity}
+                        />
+                        {/* <a href="" className='ml-7 font-semibold text-white'>My Portfolio</a> */}
                     </motion.div>
                 </div>
                 <motion.ul
