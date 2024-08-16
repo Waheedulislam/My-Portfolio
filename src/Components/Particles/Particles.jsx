@@ -29,7 +29,10 @@ const ParticlesComponent = () => {
     const options = useMemo(
         () => ({
             background: {
-                image: "url('/src/assets/banner3.jpeg')"
+                image: "url('/src/assets/banner3.jpeg')",
+                position: '50% 50%',
+                repeat: 'no-repeat',
+                size: 'cover',
             },
             fpsLimit: 120,
             interactivity: {
