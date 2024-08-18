@@ -12,6 +12,37 @@
     font-weight: 400;
     font-style: normal;
   }
-  
+
+  .tooltip-custom-1 {
+    background-color: #47a248 !important;
+    color: #ffffff !important;
+    border: 1px solid #8cc84b !important;
+  }
+  .tooltip-custom-2 {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border: 1px solid #ffffff !important;
+
+  }
+  .tooltip-custom-3 {
+    background-color: #61dafb !important;
+    color: #000000    !important;
+    border: 1px solid #61dafb !important;
+  }
+  .tooltip-custom-4{
+    background-color: #8cc84b !important;
+    color: #ffffff !important;
+    border: 1px solid #8cc84b !important;
+  }
+
+  .tooltip-1-text{
+    color: #47a248
+  }
+  .tooltip-3-text{
+    color: #61dafb
+  }
+  .tooltip-4-text{
+    color: #8cc84b
+  }
   
 

@@ -3,17 +3,19 @@ import linkedinLogo from '../../assets/linkedin.png'
 import gmailLogo from '../../assets/gmail.png'
 import githubLogo from '../../assets/github.png'
 import instragram from '../../assets/instgram.png'
+import fbLogo from '../../assets/fb-logo.png'
 import rightArrow from '../../assets/rightArrow.png'
 import { TypeAnimation } from 'react-type-animation'
 import { motion } from 'framer-motion'
 import { fadeIn } from '../../variants'
+import PopupModal from '../../Components/PopUpModal/PopupModal'
 
 const Banner = () => {
 
     return (
         <div id="home">
 
-            <div className=' flex lg:grid lg:grid-cols-2 translate-y-1/2 mt-2 '>
+            <div className=' flex lg:grid lg:grid-cols-2 translate-y-1/2  '>
                 <div className='flex flex-col gap-y-6 pt-3'>
                     <div className='flex-1 text-center
                      font-secondary lg:text-left'>
@@ -70,12 +72,11 @@ const Banner = () => {
                         viewport={{ once: false, amount: 0.7 }}
 
                         className='flex max-w-max gap-x-6 mt-5 items-center  mb-12 mx-auto lg:mx-0'>
-                        <button className='btn  bg-pink-700 text-xl hover:bg-pink-700  text-white relative hover:scale-110 ease-in-out duration-100 group'>
 
-                            About Me
-                            <img className='h-10 w-10 absolute top-1/2 -translate-y-1/2 -right-8 group-hover:-right-10' src={rightArrow} alt="" />
-                        </button>
+                        {/* PopUpModal Button  */}
+                        <PopupModal></PopupModal>
 
+                        {/* TypeAnimation code  */}
                         <TypeAnimation sequence={[
                             'My Portfolio.',
                             2000,
@@ -87,8 +88,11 @@ const Banner = () => {
                             wrapper='span'
                             repeat={Infinity}
                         />
-                        {/* <a href="" className='ml-7 font-semibold text-white'>My Portfolio</a> */}
                     </motion.div>
+
+
+
+
                 </div>
 
 
@@ -99,16 +103,47 @@ const Banner = () => {
                     initial='hidden'
                     whileInView={'show'}
                     viewport={{ once: false, amount: 0.7 }}
-                    className='ml-auto mr-2 mt-10 space-y-6'>
-                    <li className='w-10 h-10'><img src={linkedinLogo} alt="" />
+                    className='ml-auto mr-2 mt-6 space-y-6'>
+                    <li className='w-8 h-8'>
+                        <a href="https://www.linkedin.com/in/waheedul-islam">
+                            <img src={linkedinLogo} alt="" />
+                        </a>
                     </li>
-                    <li className='w-10 h-10'><img src={githubLogo} alt="" /> </li>
-                    <li className='w-10 h-10'><img src={gmailLogo} alt="" /> </li>
-                    <li className='w-10 h-10'><img src={instragram} alt="" /> </li>
+                    <li className='w-8 h-8'>
+                        <a href="https://github.com/Waheedulislam">
+                            <img src={githubLogo} alt="" />
+                        </a>
+                    </li>
+                    <li className='w-8 h-8'>
+                        <a href="baoppyhossen1234@gmail.com">
+                            <img src={gmailLogo} alt="" />
+                        </a>
+                    </li>
+                    <li className='w-8 h-8'>
+                        <a href="https://www.instagram.com/waheedul_islam775/">
+                            <img src={instragram} alt="" />
+                        </a>
+                    </li>
+                    <li className='w-8 h-8'>
+                        <a href="https://www.facebook.com/bappy.hosen.568">
+                            <img src={fbLogo} alt="" />
+                        </a>
+                    </li>
                 </motion.ul>
             </div>
+            <div className="mt-0 pb-20 mb-14 pt-0 text-center after:content-[''] after:absolute after:w-[2px] after:h-8  after:bg-[#444] after:left-1/2 after:-translate-x-1/2 after:top-full">
+                <motion.div variants={fadeIn('down', 0.4)}
+                    initial='hidden'
+                    whileInView={'show'}
+                    viewport={{ once: false, amount: 0.7 }}>
+                    <button className="btn mt-64 bg-pink-700 text-xl hover:bg-pink-700  text-white relative group hover:scale-110 ease-in-out duration-100  ">
 
-        </div>
+                        Scroll Down
+                        <img className='rotate-90 h-8 w-10 absolute left-1/2 -translate-x-1/2 top-14 group-hover:top-16' src={rightArrow} alt="" />
+                    </button>
+                </motion.div>
+            </div>
+        </div >
 
     );
 };
