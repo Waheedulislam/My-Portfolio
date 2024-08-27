@@ -4,7 +4,6 @@ import { fadeIn } from '../../variants'
 import Tilt from 'react-parallax-tilt';
 
 const ProjectsCard = ({ web }) => {
-    console.log(web.image)
     return (
         <div>
             <Tilt className="background-stripes parallax-effect" perspective={500}>
@@ -24,6 +23,8 @@ const ProjectsCard = ({ web }) => {
                                 className='h-60 '
                             />
                         </figure>
+
+                        {/* shadow  */}
                         <div className='absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-0 hover:opacity-90 transition duration-500 flex justify-center items-center'>
                             <div className='text-center '>
                                 <a href={web?.liveLink}><button className=" btn animate-bounce bg-gray-600 text-xl hover:bg-gray-800  mr-5  text-white">Live Site</button></a>
@@ -34,6 +35,8 @@ const ProjectsCard = ({ web }) => {
 
                             </div>
                         </div>
+                        {/* shadow End */}
+
                     </div>
 
                     <div className="card-body ">
