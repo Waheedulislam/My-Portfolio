@@ -14,8 +14,8 @@ const Home = () => {
             <div style={{ position: "relative", zIndex: 1 }} className='lg:max-w-screen-xl	max-w-screen-sm mx-auto '>
                 <Navbar />
                 <Banner />
-                <Skills />
                 <Service />
+                <Skills />
                 <Projects />
                 <Contact />
             </div>

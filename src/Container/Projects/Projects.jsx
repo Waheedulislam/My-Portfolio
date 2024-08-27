@@ -14,7 +14,11 @@ const Projects = () => {
 
     return (
         <div id="projects" >
-            <h1 className="text-5xl font bold text-center  my-24">My projects </h1>
+            <div className="text-center">
+                <h1 className="text-5xl font-semibold text-center text-white  mt-24">My projects </h1>
+                <progress className="progress  w-72 mb-10 mt-4 progress-warning   "></progress>
+            </div>
+
 
             <Tabs defaultIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
                 <TabList className='text-center gap-5 '>

@@ -6,17 +6,17 @@ import { MdOutlinePhonelink } from "react-icons/md";
 
 const Service = () => {
     return (
-        <div id="service" className="my-10">
+        <div id="service" className="my-10 mt-24">
             <div className="text-center">
                 <h1 className="text-4xl  text-white font-bold mt-10">My Services</h1>
-                <progress className="progress  w-64 mb-10 mt-4 progress-warning "></progress>
+                <progress className="progress  w-64 mb-10 mt-4 progress-warning   "></progress>
             </div>
 
-            <div className="grid grid-cols-3">
+            <div className="grid lg:grid-cols-3 grid-cols-1">
                 {/* card-1  */}
 
                 <Tilt className="background-stripes parallax-effect" perspective={500}>
-                    <motion.div className="card glass w-96 "
+                    <motion.div className="card glass lg:w-96 w-80"
                         variants={fadeIn('up', 0.1)}
                         initial='hidden'
                         whileInView={'show'}
@@ -36,7 +36,7 @@ const Service = () => {
 
                 {/* card-2  */}
                 <Tilt className="background-stripes parallax-effect" perspective={500}>
-                    <motion.div className="card bg-base-100 w-96 shadow-xl"
+                    <motion.div className="card bg-base-100 lg:w-96 w-80 shadow-xl"
                         variants={fadeIn('up', 0.1)}
                         initial='hidden'
                         whileInView={'show'}
@@ -58,7 +58,7 @@ const Service = () => {
 
                 {/* card-3 */}
                 <Tilt className="background-stripes parallax-effect" perspective={500}>
-                    <motion.div className="card glass w-96"
+                    <motion.div className="card glass lg:w-96 w-80"
                         variants={fadeIn('up', 0.1)}
                         initial='hidden'
                         whileInView={'show'}

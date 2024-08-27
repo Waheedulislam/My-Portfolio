@@ -138,7 +138,7 @@ const Banner = () => {
                     whileInView={'show'}
                     viewport={{ once: false, amount: 0.7 }}
                 >
-                    <Link to='skill'>
+                    <Link to='service'>
                         <button className="btn animate-bounce mt-64 bg-pink-700 text-xl hover:bg-pink-700  text-white relative group hover:scale-110 ease-in-out duration-100  "
 
                         >
