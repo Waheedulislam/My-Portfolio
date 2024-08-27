@@ -5,7 +5,7 @@ import nodeJs from '../../assets/node-js.png'
 import { SiExpress } from "react-icons/si";
 const Tooltips = () => {
     return (
-        <div className="flex gap-12">
+        <div className="flex gap-8">
             {/* Tooltip-1 */}
             <div>
                 <Tooltip

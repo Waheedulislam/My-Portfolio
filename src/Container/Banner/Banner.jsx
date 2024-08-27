@@ -9,6 +9,7 @@ import { TypeAnimation } from 'react-type-animation'
 import { motion } from 'framer-motion'
 import { fadeIn } from '../../variants'
 import PopupModal from '../../Components/PopUpModal/PopupModal'
+import { Link } from 'react-scroll'
 
 const Banner = () => {
 
@@ -131,16 +132,20 @@ const Banner = () => {
                     </li>
                 </motion.ul>
             </div>
-            <div className="mt-0 pb-20 mb-14 pt-0 text-center after:content-[''] after:absolute after:w-[2px] after:h-8  after:bg-[#444] after:left-1/2 after:-translate-x-1/2 after:top-full">
+            <div className='text-center'>
                 <motion.div variants={fadeIn('down', 0.4)}
                     initial='hidden'
                     whileInView={'show'}
-                    viewport={{ once: false, amount: 0.7 }}>
-                    <button className="btn mt-64 bg-pink-700 text-xl hover:bg-pink-700  text-white relative group hover:scale-110 ease-in-out duration-100  ">
+                    viewport={{ once: false, amount: 0.7 }}
+                >
+                    <Link to='skill'>
+                        <button className="btn animate-bounce mt-64 bg-pink-700 text-xl hover:bg-pink-700  text-white relative group hover:scale-110 ease-in-out duration-100  "
 
-                        Scroll Down
-                        <img className='rotate-90 h-8 w-10 absolute left-1/2 -translate-x-1/2 top-14 group-hover:top-16' src={rightArrow} alt="" />
-                    </button>
+                        >
+
+                            Scroll Down
+                            <img className='rotate-90 h-8 w-10 absolute left-1/2 -translate-x-1/2 top-14 group-hover:top-16' src={rightArrow} alt="" />
+                        </button></Link>
                 </motion.div>
             </div>
         </div >

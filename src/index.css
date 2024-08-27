@@ -46,3 +46,23 @@
   }
   
 
+  .parallax-effect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+      
+    transform-style: preserve-3d;
+  
+    .inner-element {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-style: italic;
+      color: white;
+      transform: translateZ(60px);
+    }
+  }

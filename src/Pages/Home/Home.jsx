@@ -1,7 +1,8 @@
 import ParticlesComponent from "../../Components/Particles/Particles";
-import About from "../../Container/About/About";
 import Banner from "../../Container/Banner/Banner";
+import Contact from "../../Container/Contact/Contact";
 import Navbar from "../../Container/Navbar/Navbar";
+import Projects from "../../Container/Projects/Projects";
 import Service from "../../Container/Service/Service";
 import Skills from "../../Container/Skills/Skills";
 const Home = () => {
@@ -10,12 +11,13 @@ const Home = () => {
             {/* Particles  */}
             <ParticlesComponent />
 
-            <div className='max-w-screen-xl	mx-auto'>
+            <div style={{ position: "relative", zIndex: 1 }} className='lg:max-w-screen-xl	max-w-screen-sm mx-auto '>
                 <Navbar />
                 <Banner />
-                <About />
-                <Service />
                 <Skills />
+                <Service />
+                <Projects />
+                <Contact />
             </div>
         </div>
 
