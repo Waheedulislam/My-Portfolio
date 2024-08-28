@@ -16,7 +16,7 @@ const Service = () => {
                 {/* card-1  */}
 
                 <Tilt className="background-stripes parallax-effect" perspective={500}>
-                    <motion.div className="card glass lg:w-96 w-80"
+                    <motion.div className="card glass  lg:w-96 w-80"
                         variants={fadeIn('up', 0.1)}
                         initial='hidden'
                         whileInView={'show'}
