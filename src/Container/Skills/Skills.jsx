@@ -21,7 +21,7 @@ const Skills = () => {
                         initial='hidden'
                         whileInView={'show'}
                         viewport={{ once: false, amount: 0.7 }}
-                        className="card  card-side  items-center bg-base-100 shadow-xl">
+                        className="card  glass card-side  items-center  shadow-xl">
                         <figure>
                             <GrUserExpert className="w-52 ml-6 rounded-2xl   h-52 mt-10 text-pink-600" />
 
@@ -88,7 +88,7 @@ const Skills = () => {
                         initial='hidden'
                         whileInView={'show'}
                         viewport={{ once: false, amount: 0.7 }}
-                        className="card glass card-side bg-base-50 shadow-xl">
+                        className="card glass  card-side bg-base-100 shadow-xl">
                         <figure>
                             <FaBookOpenReader className="w-52 ml-6 rounded-2xl   h-52 mt-10 text-pink-700" />
 
@@ -135,7 +135,7 @@ const Skills = () => {
                     initial='hidden'
                     whileInView={'show'}
                     viewport={{ once: false, amount: 0.7 }}
-                    className="card glass card-side bg-base-50 shadow-xl">
+                    className="card glass card-side bg-base-100 shadow-xl">
                     <figure>
                         <FaBiohazard className="w-52 ml-6 rounded-2xl   h-52 mt-10 text-pink-700" />
 
@@ -178,13 +178,14 @@ const Skills = () => {
 
 
                 {/* card-4  */}
+
                 <Tilt className="background-stripes parallax-effect" perspective={500}>
                     <motion.div
                         variants={fadeIn('up', 0.1)}
                         initial='hidden'
                         whileInView={'show'}
                         viewport={{ once: false, amount: 0.7 }}
-                        className="card  card-side bg-base-100 shadow-xl">
+                        className="card  glass card-side  items-center  shadow-xl">
                         <figure>
                             <MdWebhook className="w-52 ml-6 rounded-2xl   h-52 mt-10 text-pink-700" />
 
@@ -244,7 +245,6 @@ const Skills = () => {
                         </div>
                     </motion.div>
                 </Tilt>
-
             </div>
         </div>
     );

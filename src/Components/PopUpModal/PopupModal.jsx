@@ -35,7 +35,7 @@ const PopupModal = () => {
                                 <div className='mt-6   flex gap-52 lg:gap-96'>
                                     <h3 className="font-bold text-white text-2xl mt-10 ">MERN STACK</h3>
                                     <a href={Resume} download>
-                                        <button className="btn btn-outline my-10 rounded-full w-42 h-9 btn-success text-white hover:text-white">Download My CV
+                                        <button className="btn btn-outline my-10 rounded-full w-42 h-9 btn-success text-white hover:text-white">Download My Resume
                                             <FaArrowDown />
 
                                         </button>

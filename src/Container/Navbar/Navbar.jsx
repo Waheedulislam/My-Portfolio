@@ -6,11 +6,12 @@ const Navbar = () => {
             <Link to='home'><a>Home</a></Link>
         </li>
         <li>
-            <Link to="skill"><a>Skills</a></Link>
-        </li>
-        <li>
             <Link to='service'><a>Service</a></Link>
         </li>
+        <li>
+            <Link to="skill"><a>Skills</a></Link>
+        </li>
+
         <li>
             <Link to='projects'><a>Projects</a></Link>
         </li>

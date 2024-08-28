@@ -1,6 +1,7 @@
 import ParticlesComponent from "../../Components/Particles/Particles";
 import Banner from "../../Container/Banner/Banner";
 import Contact from "../../Container/Contact/Contact";
+import Footer from "../../Container/Footer/Footer";
 import Navbar from "../../Container/Navbar/Navbar";
 import Projects from "../../Container/Projects/Projects";
 import Service from "../../Container/Service/Service";
@@ -18,6 +19,7 @@ const Home = () => {
                 <Skills />
                 <Projects />
                 <Contact />
+                <Footer />
             </div>
         </div>
 
