@@ -60,7 +60,7 @@ const Banner = () => {
                         whileInView={'show'}
                         viewport={{ once: false, amount: 0.7 }}
                         className='mb-auto mx-w-lg my-2 mx-8 
-                           font-semibold text-white  text-
+                            text-white  text-
                           lg:text-left lg:mx-0'>
                         As a front-end developer, I specialize in creating visually appealing, responsive, and user-centric web interfaces. My expertise lies in translating design concepts into interactive and functional websites using HTML, CSS,JavaScript and ReactJs. Strong background in management and leadership.
 

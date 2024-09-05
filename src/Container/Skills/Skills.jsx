@@ -21,9 +21,9 @@ const Skills = () => {
                         initial='hidden'
                         whileInView={'show'}
                         viewport={{ once: false, amount: 0.7 }}
-                        className="card  glass card-side  items-center  shadow-xl">
+                        className="card   glass lg:card-side  items-center  shadow-xl">
                         <figure>
-                            <GrUserExpert className="w-52 ml-6 rounded-2xl   h-52 mt-10 text-pink-600" />
+                            <GrUserExpert className="lg:ml-3 w-52 rounded-2xl  h-52 mt-10 text-pink-700" />
 
                         </figure>
                         <div className="card-body text-white">
@@ -88,19 +88,19 @@ const Skills = () => {
                         initial='hidden'
                         whileInView={'show'}
                         viewport={{ once: false, amount: 0.7 }}
-                        className="card glass  card-side bg-base-100 shadow-xl">
+                        className="card glass  lg:card-side bg-base-100 shadow-xl">
                         <figure>
-                            <FaBookOpenReader className="w-52 ml-6 rounded-2xl   h-52 mt-10 text-pink-700" />
+                            <FaBookOpenReader className="lg:ml-6 w-52 rounded-2xl  h-52 mt-10 text-pink-700" />
 
                         </figure>
-                        <div className="card-body text-white ml-12">
-                            <h2 className="text-4xl  text-center text-white mb-4">Familiar !</h2>
+                        <div className="card-body text-center text-white mr-10">
+                            <h2 className="text-4xl  text-center text-white mb-4 ml-12">Familiar !</h2>
                             <div className="flex items-center mb-4">
                                 <p className="flex items-center  text-xl">
                                     <FaArrowCircleRight className="text-pink-600" />
                                     <span className="ml-2">Redux</span>
                                 </p>
-                                <p className="flex items-center  text-xl">
+                                <p className="flex items-center ml-8 text-xl">
                                     <FaArrowCircleRight className="text-pink-600" />
                                     <span className="ml-2">RTK Query</span>
                                 </p>
@@ -110,17 +110,17 @@ const Skills = () => {
                                     <FaArrowCircleRight className="text-pink-600" />
                                     <span className="ml-2">React Query</span>
                                 </p>
-                                <p className="flex items-center ml-3  text-xl">
+                                <p className="flex items-center ml-8  text-xl">
                                     <FaArrowCircleRight className="text-pink-600" />
                                     <span className="ml-2">Axios</span>
                                 </p>
                             </div>
                             <div className="flex items-center mb-4">
-                                <p className="flex items-center  text-xl">
+                                <p className="flex items-center mr-3 text-xl">
                                     <FaArrowCircleRight className="text-pink-600" />
                                     <span className="ml-2">Rest api</span>
                                 </p>
-                                <p className="flex items-center ml-3 text-xl">
+                                <p className="flex items-center lg:ml-1 ml-8 text-xl">
                                     <FaArrowCircleRight className="text-pink-600" />
                                     <span className="ml-2">DotEnv</span>
                                 </p>
@@ -135,14 +135,14 @@ const Skills = () => {
                     initial='hidden'
                     whileInView={'show'}
                     viewport={{ once: false, amount: 0.7 }}
-                    className="card glass card-side bg-base-100 shadow-xl">
+                    className="card glass lg:card-side bg-base-100 shadow-xl">
                     <figure>
-                        <FaBiohazard className="w-52 ml-6 rounded-2xl   h-52 mt-10 text-pink-700" />
+                        <FaBiohazard className="ml-6 w-52 rounded-2xl  h-52 mt-10 text-pink-700" />
 
 
                     </figure>
                     <div className="card-body mr-10 text-white">
-                        <h2 className="text-4xl  text-center text-white mb-4">Comfortable !</h2>
+                        <h2 className="text-4xl ml-12 lg:ml-2  text-center text-white mb-4">Comfortable !</h2>
                         <div className="flex items-center mb-4">
                             <p className="flex items-center  text-xl">
                                 <FaArrowCircleRight className="text-pink-600" />
@@ -185,9 +185,9 @@ const Skills = () => {
                         initial='hidden'
                         whileInView={'show'}
                         viewport={{ once: false, amount: 0.7 }}
-                        className="card  glass card-side  items-center  shadow-xl">
+                        className="card  glass lg:card-side  items-center  shadow-xl">
                         <figure>
-                            <MdWebhook className="w-52 ml-6 rounded-2xl   h-52 mt-10 text-pink-700" />
+                            <MdWebhook className="lg:ml-3 w-52 rounded-2xl  h-52 mt-10 text-pink-700" />
 
                         </figure>
                         <div className="card-body text-white">

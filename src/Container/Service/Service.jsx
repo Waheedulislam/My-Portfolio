@@ -22,7 +22,7 @@ const Service = () => {
                         whileInView={'show'}
                         viewport={{ once: false, amount: 0.7 }}>
                         <figure>
-                            <FaBattleNet className="w-20  h-20 mt-10 text-pink-600" />
+                            <FaBattleNet className="w-20  h-20  mt-10 text-pink-600" />
                         </figure>
                         <div className="card-body text-center">
                             <h2 className="text-4xl text-white font-bold">Web Design</h2>
