@@ -1,8 +1,24 @@
-# React + Vite
+# My-Portfolio-Website
+## [Live-Site](https://waheedulislam.vercel.app/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Click  here to Live-Site-link: https://waheedulislam.vercel.app/
 
-Currently, two official plugins are available:
+## This website details:
+***
+A list of My-Portfolio-Website used within the project and details:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1)  It is a React.js website.
+
+2)  It has been use React Tsparticles.
+
+3)  It has been used  framer motion .
+
+4)  It has been used  React-parallax-tilt.
+
+5)  It has been used  React-type-animation.
+
+6)  It has been used many framework. React-scroll,TailWind,DaisyUI css Component,react-tost etc.
+
+7)  Many best projects have been added to my portfolio website.
+
+8) This website is deploy by Vercel.
