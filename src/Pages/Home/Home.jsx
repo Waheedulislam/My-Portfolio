@@ -12,7 +12,7 @@ const Home = () => {
             {/* Particles  */}
             <ParticlesComponent />
 
-            <div style={{ position: "relative", zIndex: 1 }} className='lg:max-w-screen-xl	max-w-screen-sm mx-auto '>
+            <div style={{ position: "relative", zIndex: 1 }} className='container mx-auto '>
                 <Navbar />
                 <Banner />
                 <Service />

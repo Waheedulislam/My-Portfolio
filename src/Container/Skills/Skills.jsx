@@ -10,7 +10,7 @@ const Skills = () => {
     return (
         <div id="skill" className=" pt-40">
             <div className="text-center">
-                <h1 className="text-5xl  font-bold text-center " >My Skills</h1>
+                <h1 className="text-5xl text-white font-semibold text-center " >My Skills</h1>
                 <progress className="progress  w-64 mb-10 mt-4 progress-warning   "></progress>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 justify-items-center align-middle">

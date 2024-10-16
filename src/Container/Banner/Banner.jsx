@@ -17,7 +17,7 @@ const Banner = () => {
         <div id="home">
 
             <div className=' flex lg:grid lg:grid-cols-2 translate-y-1/2  '>
-                <div className='flex flex-col gap-y-6 pt-3'>
+                <div className='flex flex-col gap-y-6 '>
                     <div className='flex-1 text-center
                      font-secondary lg:text-left'>
                         <motion.h1

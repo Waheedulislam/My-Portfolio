@@ -9,6 +9,7 @@ const Projects = () => {
     const [web] = useWebsite();
 
     const fullStack = web?.filter(web => web?.type === 'FullStack')
+    const TeamProjects = web?.filter(web => web?.type === 'Team-Projects')
     const frontEnd = web.filter(web => web.type === 'FrontEnd')
     const htmlCss = web.filter(web => web.type === 'HtmlCss')
 
@@ -21,13 +22,15 @@ const Projects = () => {
 
 
             <Tabs defaultIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
-                <TabList className='text-center gap-5 '>
+                <TabList className='text-center gap-5 mb-20'>
 
-                    <Tab >ALL</Tab>
-                    <Tab>Full-Stack</Tab>
-                    <Tab>Front End</Tab>
-                    <Tab>Html-Css</Tab>
+                    <Tab className='btn  bg-pink-700 text-xl hover:bg-pink-700  text-white'>ALL</Tab>
+                    <Tab className='btn  bg-pink-700 text-xl hover:bg-pink-700  text-white ml-4 ' >Full-Stack</Tab>
+                    <Tab className='btn  bg-pink-700 text-xl hover:bg-pink-700  text-white ml-4 ' >Team-Projects</Tab>
+                    <Tab className='btn  bg-pink-700 text-xl hover:bg-pink-700  text-white ml-4 ' >Front End</Tab>
+                    <Tab className='btn  bg-pink-700 text-xl hover:bg-pink-700  text-white ml-4 ' >Html-Css</Tab>
                 </TabList>
+                {/* All  */}
                 <TabPanel>
                     <div className='grid my-8  grid-cols-1 md:grid-cols-2 gap-10 lg:grid-cols-3 justify-items-center '>
                         {
@@ -37,16 +40,28 @@ const Projects = () => {
                         }
                     </div>
                 </TabPanel>
+                {/* Full-Stack  */}
                 <TabPanel>
-                    <div className='grid my-10 grid-cols-1 md:grid-cols-2 gap-10 lg:grid-cols-3 '>
+                    <div className='grid my-8  grid-cols-1 md:grid-cols-2 gap-10 lg:grid-cols-3 justify-items-center '>
                         {
                             fullStack.map(web => <ProjectsCard
                                 key={web.id}
                                 web={web}></ProjectsCard>)
                         }
                     </div>
+                </TabPanel>
+                {/* Team-projects  */}
+                <TabPanel>
+                    <div className='grid my-10 grid-cols-1 md:grid-cols-2 gap-10 lg:grid-cols-3 '>
+                        {
+                            TeamProjects.map(web => <ProjectsCard
+                                key={web.id}
+                                web={web}></ProjectsCard>)
+                        }
+                    </div>
 
                 </TabPanel>
+                {/* Front End  */}
                 <TabPanel>
                     <div className='grid my-10 grid-cols-1 md:grid-cols-2 gap-10 lg:grid-cols-3 '>
                         {
@@ -57,6 +72,7 @@ const Projects = () => {
                     </div>
 
                 </TabPanel>
+                {/* Front End  */}
                 <TabPanel>
                     <div className='grid my-10  grid-cols-1 md:grid-cols-2 gap-10 lg:grid-cols-3  '>
                         {
