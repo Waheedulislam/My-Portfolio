@@ -28,8 +28,9 @@ const PopupModal = () => {
                             <div >
                                 <h3 className="font-bold text-2xl text-white">ABOUT ME</h3>
                                 <p className="pt-4 pb-2 text-white">
-                                    Aspiring Front end web developer with a solid foundation in HTML, CSS, JavaScript, Node.js, React,Express.js MongoDB. Aiming to join a progressive company where I can utilize my coding skills and creative vision to develop cutting-edge web applications and solve challenges.
+                                    Aspiring Front end web developer with a solid foundation in HTML, CSS, JavaScript, Node.js, React,Nextjs,TypeScript,Mongos,Express.js MongoDB. Aiming to join a progressive company where I can utilize my coding skills and creative vision to develop cutting-edge web applications and solve challenges.
                                 </p>
+                                {/* all button  */}
                                 <Button />
 
                                 <div className='mt-6   flex gap-52 lg:gap-96'>

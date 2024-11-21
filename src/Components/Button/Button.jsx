@@ -18,6 +18,12 @@ const Button = () => {
                 #react.js
             </button>
             <button className="btn btn-outline m-1 rounded-full btn-sm btn-success">
+                #next.js
+            </button>
+            <button className="btn btn-outline m-1 rounded-full btn-sm btn-success">
+                #typeScrpt
+            </button>
+            <button className="btn btn-outline m-1 rounded-full btn-sm btn-success">
                 #redux
             </button>
             <button className="btn btn-outline m-1 rounded-full btn-sm btn-success">
@@ -34,6 +40,9 @@ const Button = () => {
             </button>
             <button className="btn btn-outline m-1 rounded-full btn-sm btn-success">
                 #firebase
+            </button>
+            <button className="btn btn-outline m-1 rounded-full btn-sm btn-success">
+                #mongos
             </button>
 
             <button className="btn btn-outline m-1 rounded-full btn-sm btn-success">

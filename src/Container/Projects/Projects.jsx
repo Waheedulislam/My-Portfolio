@@ -22,13 +22,13 @@ const Projects = () => {
 
 
             <Tabs defaultIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
-                <TabList className='text-center gap-5 mb-20'>
+                <TabList className='text-center items-center gap-5  mb-20'>
 
-                    <Tab className='btn  bg-pink-700 text-xl hover:bg-pink-700  text-white'>ALL</Tab>
-                    <Tab className='btn  bg-pink-700 text-xl hover:bg-pink-700  text-white ml-4 ' >Full-Stack</Tab>
-                    <Tab className='btn  bg-pink-700 text-xl hover:bg-pink-700  text-white ml-4 ' >Team-Projects</Tab>
-                    <Tab className='btn  bg-pink-700 text-xl hover:bg-pink-700  text-white ml-4 ' >Front End</Tab>
-                    <Tab className='btn  bg-pink-700 text-xl hover:bg-pink-700  text-white ml-4 ' >Html-Css</Tab>
+                    <Tab className='btn mb-2 bg-pink-700 text-xl hover:bg-pink-700  text-white'>ALL</Tab>
+                    <Tab className='btn mb-2 bg-pink-700 text-xl hover:bg-pink-700  text-white ml-4 ' >Full-Stack</Tab>
+                    <Tab className='btn mb-2 bg-pink-700 text-xl hover:bg-pink-700  text-white ml-4 ' >Team-Projects</Tab>
+                    <Tab className='btn mb-2 bg-pink-700 text-xl hover:bg-pink-700  text-white ml-4 ' >Front End</Tab>
+                    <Tab className='btn mb-2 bg-pink-700 text-xl hover:bg-pink-700  text-white ml-4 ' >Html-Css</Tab>
                 </TabList>
                 {/* All  */}
                 <TabPanel>
