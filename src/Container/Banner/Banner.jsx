@@ -114,7 +114,7 @@ const Banner = () => {
                         </a>
                     </li>
                     <li className='w-8 h-8'>
-                        <a href="baoppyhossen1234@gmail.com">
+                        <a href="waheeduli81@gmail.com">
                             <img src={gmailLogo} alt="" />
                         </a>
                     </li>
