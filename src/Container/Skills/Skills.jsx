@@ -31,6 +31,26 @@ const Skills = () => {
                             <div className="flex items-center">
                                 <p className="flex items-center  text-xl">
                                     <FaArrowCircleRight className="text-pink-600" />
+                                    <span className="ml-2">React js</span>
+                                </p>
+                                <p className="flex items-center ml-3  text-xl">
+                                    <FaArrowCircleRight className="text-pink-600" />
+                                    <span className="ml-2">Next js</span>
+                                </p>
+                            </div>
+                            <div className="flex items-center">
+                                <p className="flex items-center  text-xl">
+                                    <FaArrowCircleRight className="text-pink-600" />
+                                    <span className="ml-2">Javascript</span>
+                                </p>
+                                <p className="flex items-center ml-3  text-xl">
+                                    <FaArrowCircleRight className="text-pink-600" />
+                                    <span className="ml-2">TypeScript</span>
+                                </p>
+                            </div>
+                            <div className="flex items-center">
+                                <p className="flex items-center  text-xl">
+                                    <FaArrowCircleRight className="text-pink-600" />
                                     <span className="ml-2">Html5</span>
                                 </p>
                                 <p className="flex items-center  text-xl">
@@ -41,31 +61,21 @@ const Skills = () => {
                             <div className="flex items-center">
                                 <p className="flex items-center  text-xl">
                                     <FaArrowCircleRight className="text-pink-600" />
-                                    <span className="ml-2">React js</span>
-                                </p>
-                                <p className="flex items-center ml-3  text-xl">
-                                    <FaArrowCircleRight className="text-pink-600" />
-                                    <span className="ml-2">Node js</span>
-                                </p>
-                            </div>
-                            <div className="flex items-center">
-                                <p className="flex items-center  text-xl">
-                                    <FaArrowCircleRight className="text-pink-600" />
-                                    <span className="ml-2">Express js</span>
-                                </p>
-                                <p className="flex items-center ml-3 text-xl">
-                                    <FaArrowCircleRight className="text-pink-600" />
-                                    <span className="ml-2">Javascript</span>
-                                </p>
-                            </div>
-                            <div className="flex items-center">
-                                <p className="flex items-center  text-xl">
-                                    <FaArrowCircleRight className="text-pink-600" />
-                                    <span className="ml-2">React Router</span>
+                                    <span className="ml-2">Redux</span>
                                 </p>
                                 <p className="flex items-center mr-9  text-xl">
                                     <FaArrowCircleRight className="text-pink-600" />
-                                    <span className="ml-2">Js.(Es6)</span>
+                                    <span className="ml-2">Redux Toolkit</span>
+                                </p>
+                            </div>
+                            <div className="flex items-center">
+                                <p className="flex items-center  text-xl">
+                                    <FaArrowCircleRight className="text-pink-600" />
+                                    <span className="ml-2">Material Ui</span>
+                                </p>
+                                <p className="flex items-center mr-9  text-xl">
+                                    <FaArrowCircleRight className="text-pink-600" />
+                                    <span className="ml-2">ShadCn</span>
                                 </p>
                             </div>
                             <div className="flex items-center">
@@ -90,27 +100,38 @@ const Skills = () => {
                         viewport={{ once: false, amount: 0.7 }}
                         className="card glass  lg:card-side bg-base-100 shadow-xl">
                         <figure>
-                            <FaBookOpenReader className="lg:ml-6 w-52 rounded-2xl  h-52 mt-10 text-pink-700" />
+                            <FaBookOpenReader className="lg:ml-6 w-48 rounded-2xl  h-52 mt-10 text-pink-700" />
 
                         </figure>
-                        <div className="card-body text-center text-white mr-10">
+                        <div className="card-body text-center  text-white mr-10">
                             <h2 className="text-4xl  text-center text-white mb-4 ml-12">Familiar !</h2>
                             <div className="flex items-center mb-4">
                                 <p className="flex items-center  text-xl">
                                     <FaArrowCircleRight className="text-pink-600" />
-                                    <span className="ml-2">Redux</span>
+                                    <span className="ml-2">RTK Query</span>
                                 </p>
                                 <p className="flex items-center ml-8 text-xl">
                                     <FaArrowCircleRight className="text-pink-600" />
-                                    <span className="ml-2">RTK Query</span>
+                                    <span className="ml-2">Ant Design</span>
                                 </p>
                             </div>
                             <div className="flex items-center mb-4">
                                 <p className="flex items-center  text-xl">
                                     <FaArrowCircleRight className="text-pink-600" />
-                                    <span className="ml-2">React Query</span>
+                                    <span className="ml-2">Strip</span>
                                 </p>
                                 <p className="flex items-center ml-8  text-xl">
+                                    <FaArrowCircleRight className="text-pink-600" />
+                                    <span className="ml-2">SSL Commerce</span>
+                                </p>
+                            </div>
+
+                            <div className="flex items-center mb-4">
+                                <p className="flex items-center mr-3 text-xl">
+                                    <FaArrowCircleRight className="text-pink-600" />
+                                    <span className="ml-2">Tanstack Query</span>
+                                </p>
+                                <p className="flex items-center lg:ml-1 ml-8 text-xl">
                                     <FaArrowCircleRight className="text-pink-600" />
                                     <span className="ml-2">Axios</span>
                                 </p>
@@ -118,11 +139,11 @@ const Skills = () => {
                             <div className="flex items-center mb-4">
                                 <p className="flex items-center mr-3 text-xl">
                                     <FaArrowCircleRight className="text-pink-600" />
-                                    <span className="ml-2">Rest api</span>
+                                    <span className="ml-2">JWT</span>
                                 </p>
                                 <p className="flex items-center lg:ml-1 ml-8 text-xl">
                                     <FaArrowCircleRight className="text-pink-600" />
-                                    <span className="ml-2">DotEnv</span>
+                                    <span className="ml-2">Firebase</span>
                                 </p>
                             </div>
                         </div>
@@ -146,27 +167,27 @@ const Skills = () => {
                         <div className="flex items-center mb-4">
                             <p className="flex items-center  text-xl">
                                 <FaArrowCircleRight className="text-pink-600" />
-                                <span className="ml-2">Redux</span>
+                                <span className="ml-2">MongoDB</span>
                             </p>
-                            <p className="flex items-center  text-xl">
+                            <p className="flex items-center ml-2 text-xl">
                                 <FaArrowCircleRight className="text-pink-600" />
-                                <span className="ml-2">RTK Query</span>
+                                <span className="ml-2">Mongoose</span>
                             </p>
                         </div>
                         <div className="flex items-center mb-4">
                             <p className="flex items-center  text-xl">
                                 <FaArrowCircleRight className="text-pink-600" />
-                                <span className="ml-2">React Query</span>
+                                <span className="ml-2">Node Js</span>
                             </p>
                             <p className="flex items-center ml-3  text-xl">
                                 <FaArrowCircleRight className="text-pink-600" />
-                                <span className="ml-2">Axios</span>
+                                <span className="ml-2">Rest api</span>
                             </p>
                         </div>
                         <div className="flex items-center mb-4">
                             <p className="flex items-center  text-xl">
                                 <FaArrowCircleRight className="text-pink-600" />
-                                <span className="ml-2">Rest api</span>
+                                <span className="ml-2">Express js</span>
                             </p>
                             <p className="flex items-center ml-3 text-xl">
                                 <FaArrowCircleRight className="text-pink-600" />

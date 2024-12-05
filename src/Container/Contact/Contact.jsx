@@ -58,7 +58,7 @@ const Contact = () => {
                             If you have any query, want to ask me, or want to give me any important message, you can send me a message at any time, and yes, I will try to reply to your message in your email.
                         </p>
                         {/* Name  */}
-                        <p className="text-white ">
+                        <p className="text-white my-2">
                             <span className="text-2xl items-center My-heading2 font-bold ">Name:</span>
                             <TypeAnimation sequence={[
                                 'Waheedul Islam.',
@@ -73,7 +73,7 @@ const Contact = () => {
                         </p>
 
                         {/* call/whatsapp  */}
-                        <p className="text-white">
+                        <p className="text-white my-2">
                             <span className="text-xl My-heading2 font-bold">Cell/WhatsApp: </span>
                             <TypeAnimation sequence={[
                                 '+8801 63352 1872.',
@@ -88,10 +88,10 @@ const Contact = () => {
                         </p>
 
                         {/* email  */}
-                        <p className="text-white">
-                            <span className="text-xl My-heading2 font-bold ">Email:</span>
+                        <p className="text-white my-2">
+                            <span className="text-xl  My-heading2 font-bold ">Email:</span>
                             <TypeAnimation sequence={[
-                                'baoppyhossen1234@gmail.com',
+                                'waheeduli81@gmail.com',
                                 2000,
 
                             ]}
@@ -103,7 +103,7 @@ const Contact = () => {
                         </p>
 
                         {/* address  */}
-                        <p className="text-white">
+                        <p className="text-white my-2">
                             <span className="text-xl My-heading2 font-bold ">Address:</span>
                             <TypeAnimation sequence={[
                                 'Ashulia,Savar,Dhaka 1341',
