@@ -146,6 +146,14 @@
     },
     {
         "id": "18",
+        "name": "Travel Agency Network",
+        "image": "https://i.ibb.co.com/WHt6Q0H/Screenshot-2024-12-17-155029.png",
+        "type": "TypescriptNextJs",
+        "gitHubClient": "https://github.com/Waheedulislam/Travel-Agency-Network",
+        "liveLink": "https://travel-agency-network.vercel.app/"
+    },
+    {
+        "id": "19",
         "name": "Influencer Products",
         "image": "https://i.ibb.co/B49GYnK/Screenshot-2024-08-25-112201.png",
         "type": "HtmlCss",
@@ -153,7 +161,7 @@
         "liveLink": "https://goofy-heisenberg-4e0983.netlify.app/"
     },
     {
-        "id": "19",
+        "id": "20",
         "name": "TeamBoard Software",
         "image": "https://i.ibb.co/yVn9JzN/Screenshot-2024-08-25-131249.png",
         "type": "FullStack",

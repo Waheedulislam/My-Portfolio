@@ -10,9 +10,10 @@ const Projects = () => {
 
     const fullStack = web?.filter(web => web?.type === 'FullStack')
     const TeamProjects = web?.filter(web => web?.type === 'Team-Projects')
+    const TypescriptNextJs = web?.filter(web => web?.type === 'TypescriptNextJs')
     const frontEnd = web.filter(web => web.type === 'FrontEnd')
     const htmlCss = web.filter(web => web.type === 'HtmlCss')
-
+    console.log(TypescriptNextJs)
     return (
         <div id="projects" >
             <div className="text-center">
@@ -27,6 +28,7 @@ const Projects = () => {
                     <Tab className='btn mb-2 bg-pink-700 text-xl hover:bg-pink-700  text-white'>ALL</Tab>
                     <Tab className='btn mb-2 bg-pink-700 text-xl hover:bg-pink-700  text-white ml-4 ' >Full-Stack</Tab>
                     <Tab className='btn mb-2 bg-pink-700 text-xl hover:bg-pink-700  text-white ml-4 ' >Team-Projects</Tab>
+                    <Tab className='btn mb-2 bg-pink-700 text-xl hover:bg-pink-700  text-white ml-4 ' >Typescript+Next.Js</Tab>
                     <Tab className='btn mb-2 bg-pink-700 text-xl hover:bg-pink-700  text-white ml-4 ' >Front End</Tab>
                     <Tab className='btn mb-2 bg-pink-700 text-xl hover:bg-pink-700  text-white ml-4 ' >Html-Css</Tab>
                 </TabList>
@@ -55,6 +57,17 @@ const Projects = () => {
                     <div className='grid my-10 grid-cols-1 md:grid-cols-2 gap-10 lg:grid-cols-3 '>
                         {
                             TeamProjects.map(web => <ProjectsCard
+                                key={web.id}
+                                web={web}></ProjectsCard>)
+                        }
+                    </div>
+
+                </TabPanel>
+                {/* Typescript+Next.Js  */}
+                <TabPanel>
+                    <div className='grid my-10 grid-cols-1 md:grid-cols-2 gap-10 lg:grid-cols-3 '>
+                        {
+                            TypescriptNextJs.map(web => <ProjectsCard
                                 key={web.id}
                                 web={web}></ProjectsCard>)
                         }
