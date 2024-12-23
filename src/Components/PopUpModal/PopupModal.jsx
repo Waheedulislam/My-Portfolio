@@ -2,7 +2,8 @@ import rightArrow from '../../assets/rightArrow.png'
 import me from '../../assets/me.jpg'
 import Button from '../Button/Button';
 import Tooltips from '../Tooltip/Tooltip';
-import Resume from '../../assets/Wahidul Islam-Resume.pdf'
+import Resume from '../../assets/Resume/Wahidul Islam-front.pdf'
+
 import { FaArrowDown } from 'react-icons/fa';
 const PopupModal = () => {
     return (

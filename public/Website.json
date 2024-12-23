@@ -2,7 +2,7 @@
     {
         "id": "1",
         "name": "Doctorate",
-        "image": "https://i.ibb.co/6bKydNZ/Screenshot-2024-08-25-132351.png",
+        "image": "../src/assets/Project-Image/doctorate.png",
         "type": "FullStack",
         "gitHubClient": "https://github.com/Waheedulislam/Doctors-project-client",
         "gitHubServer": "https://github.com/Waheedulislam/Doctors-project-server",
@@ -11,7 +11,7 @@
     {
         "id": "2",
         "name": "Tech Heim",
-        "image": "https://i.ibb.co.com/Cs3H3w3/Screenshot-2024-10-16-205514.png",
+        "image": "../src/assets/Project-Image/tech-heim.png",
         "type": "Team-Projects",
         "gitHubClient": "https://github.com/Waheedulislam/Dev-Daynamos-Fashion-House-",
         "gitHubServer": "https://github.com/Waheedulislam/Dev-Daynamos-Fashion-House-server",
@@ -20,7 +20,7 @@
     {
         "id": "3",
         "name": "Weeding Pro",
-        "image": "https://i.ibb.co.com/k0X7Myt/Screenshot-2024-11-21-184755.png",
+        "image": "../src/assets/Project-Image/weddingPro.png",
         "type": "Team-Projects",
         "gitHubClient": "https://github.com/Waheedulislam/Dev-Wedding-Management",
         "gitHubServer": "https://github.com/Waheedulislam/weedubg-managment-server",
@@ -29,7 +29,7 @@
     {
         "id": "4",
         "name": "Tools Way",
-        "image": "https://i.ibb.co/Ky9BrFc/Screenshot-2024-08-26-162214.png",
+        "image": "../src/assets/Project-Image/tools-way.png",
         "type": "FullStack",
         "gitHubClient": "https://github.com/Waheedulislam/manufacturer-website-client-side",
         "gitHubServer": "https://github.com/Waheedulislam/manufacturer-website-server-side",
@@ -38,7 +38,7 @@
     {
         "id": "5",
         "name": "E-Scooter",
-        "image": "https://i.ibb.co.com/f4Kzcq2/Screenshot-2024-09-11-023846.png",
+        "image": "../src/assets/Project-Image/e-schooter.png",
         "type": "FullStack",
         "gitHubClient": "https://github.com/Waheedulislam/E-Scooter",
         "gitHubServer": "",
@@ -47,7 +47,7 @@
     {
         "id": "6",
         "name": "Bike Warehouse",
-        "image": "https://i.ibb.co/9s0ZX42/Screenshot-2024-08-25-124011.png",
+        "image": "../src/assets/Project-Image/bike-warehouse.png",
         "type": "FullStack",
         "gitHubClient": "https://github.com/Waheedulislam/Own-Project",
         "gitHubServer": "https://github.com/Waheedulislam/own-project-server",
@@ -56,7 +56,7 @@
     {
         "id": "7",
         "name": "Doctors Portal",
-        "image": "https://i.ibb.co.com/YXcPcsN/Screenshot-2024-08-25-131455.png",
+        "image": "../src/assets/Project-Image/doctors-protal.png",
         "type": "FullStack",
         "gitHubClient": "https://github.com/Waheedulislam/doctors-portal-client",
         "gitHubServer": "https://github.com/Waheedulislam/doctors-portal-server",
@@ -65,7 +65,7 @@
     {
         "id": "8",
         "name": "The Car Doctor",
-        "image": "https://i.ibb.co/JmJ5JnD/Screenshot-2024-08-26-162607.png",
+        "image": "../src/assets/Project-Image/car-doctor.png",
         "type": "FullStack",
         "gitHubClient": "https://github.com/Waheedulislam/genius-car-services",
         "gitHubServer": "https://github.com/Waheedulislam/genius-car-service-server-mongodb-66",
@@ -74,7 +74,7 @@
     {
         "id": "9",
         "name": "Bike Way",
-        "image": "https://i.ibb.co/9wXZsSH/Screenshot-2024-08-26-162707.png",
+        "image": "../src/assets/Project-Image/bike-way.png",
         "type": "FullStack",
         "gitHubClient": "https://github.com/Waheedulislam/-warehouse-management-client-side",
         "gitHubServer": "https://github.com/Waheedulislam/-warehouse-management-server-side",
@@ -83,7 +83,7 @@
     {
         "id": "10",
         "name": "Body Flex Gym",
-        "image": "https://i.ibb.co/NVv6C1V/Screenshot-2024-08-26-162820.png",
+        "image": "../src/assets/Project-Image/body-flex.png",
         "type": "FrontEnd",
         "gitHubClient": "https://github.com/Waheedulislam/independent-service-GYM",
         "liveLink": "https://gym-trainer-services.web.app/home"
@@ -91,7 +91,7 @@
     {
         "id": "11",
         "name": "Ema-John",
-        "image": "https://i.ibb.co/X5hzkBL/Screenshot-2024-08-25-110834.png",
+        "image": "../src/assets/Project-Image/ema-jon.png",
         "type": "FrontEnd",
         "gitHubClient": "https://github.com/Waheedulislam/ema-john-simple",
         "liveLink": "https://dulcet-peony-961ab6.netlify.app/"
@@ -99,7 +99,7 @@
     {
         "id": "12",
         "name": "Convention-Center",
-        "image": "https://i.ibb.co/cY5pD6Z/Screenshot-2024-08-25-112223.png",
+        "image": "../src/assets/Project-Image/convation-center.png",
         "type": "HtmlCss",
         "gitHubClient": "https://github.com/Waheedulislam/convention-center",
         "liveLink": "https://eloquent-borg-bcd16e.netlify.app/"
@@ -107,7 +107,7 @@
     {
         "id": "13",
         "name": "Cartoon Network",
-        "image": "https://i.ibb.co/dWBCRNp/Screenshot-2024-08-25-114105.png",
+        "image": "../src/assets/Project-Image/cartoon-network.png",
         "type": "FrontEnd",
         "gitHubClient": "https://github.com/Waheedulislam/lucky-one-cartoon",
         "liveLink": "https://ephemeral-puppy-d02e5c.netlify.app/"
@@ -115,7 +115,7 @@
     {
         "id": "14",
         "name": "Mission Project",
-        "image": "https://i.ibb.co/dtyS2nB/Screenshot-2024-08-25-112943.png",
+        "image": "../src/assets/Project-Image/Mission-Project.png",
         "type": "HtmlCss",
         "gitHubClient": "https://github.com/Waheedulislam/assignment",
         "liveLink": "https://sad-shaw-2ea678.netlify.app/"
@@ -123,15 +123,15 @@
     {
         "id": "15",
         "name": "Cartoon Next",
-        "image": "https://i.ibb.co/M7NX4f7/Screenshot-2024-08-25-114049.png",
+        "image": "../src/assets/Project-Image/cartoon-next.png",
         "type": "FrontEnd",
         "gitHubClient": "https://github.com/Waheedulislam/product-analysis-cartoons",
         "liveLink": "https://melodic-kataifi-27b80e.netlify.app/home"
     },
     {
         "id": "16",
-        "name": "Mony Master",
-        "image": "https://i.ibb.co/F5R8xQV/Screenshot-2024-08-25-113348.png",
+        "name": "Many Master",
+        "image": "../src/assets/Project-Image/many-master.png",
         "type": "FrontEnd",
         "gitHubClient": "https://objective-wescoff-1e176e.netlify.app/",
         "liveLink": "https://objective-wescoff-1e176e.netlify.app/"
@@ -139,7 +139,7 @@
     {
         "id": "17",
         "name": "Tshirt-Mania",
-        "image": "https://i.ibb.co/Wc2t8WV/Screenshot-2024-08-26-161706.png",
+        "image": "../src/assets/Project-Image/t-shart-mania.png",
         "type": "HtmlCss",
         "gitHubClient": "https://github.com/Waheedulislam/tshirt-mania",
         "liveLink": "https://extraordinary-sunburst-2e8b8c.netlify.app/"
@@ -147,7 +147,7 @@
     {
         "id": "18",
         "name": "Travel Agency Network",
-        "image": "https://i.ibb.co.com/WHt6Q0H/Screenshot-2024-12-17-155029.png",
+        "image": "../src/assets/Project-Image/travel-agency.png",
         "type": "TypescriptNextJs",
         "gitHubClient": "https://github.com/Waheedulislam/Travel-Agency-Network",
         "liveLink": "https://travel-agency-network.vercel.app/"
@@ -155,7 +155,7 @@
     {
         "id": "19",
         "name": "Influencer Products",
-        "image": "https://i.ibb.co/B49GYnK/Screenshot-2024-08-25-112201.png",
+        "image": "../src/assets/Project-Image/influncer.png",
         "type": "HtmlCss",
         "gitHubClient": "https://github.com/Waheedulislam/assignment-02",
         "liveLink": "https://goofy-heisenberg-4e0983.netlify.app/"
@@ -163,7 +163,7 @@
     {
         "id": "20",
         "name": "TeamBoard Software",
-        "image": "https://i.ibb.co/yVn9JzN/Screenshot-2024-08-25-131249.png",
+        "image": "../src/assets/Project-Image/team-ford.png",
         "type": "FullStack",
         "gitHubClient": "https://github.com/Waheedulislam/collaborative-Task-management",
         "gitHubServer": "https://github.com/Waheedulislam/collaborative-task-server",
