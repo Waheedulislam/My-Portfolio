@@ -27,7 +27,7 @@ const Banner = () => {
                             viewport={{ once: false, amount: 0.7 }}
                             className='My-heading text-6xl text-white font-bold '
                         >
-                            Waheedul <span>Islam</span>
+                            Wahidul <span>Islam</span>
                         </motion.h1>
                     </div>
                     <motion.div
@@ -39,12 +39,15 @@ const Banner = () => {
                         className='text-2xl lg:text-4xl  text-center lg:text-left'>
                         <span className='text-white My-heading2'>I am a </span>
                         <TypeAnimation sequence={[
+                            'Full Stack Developer.',
+                            2000,
+                            'Mern Stack Developer.',
+                            2000,
                             'Front End Developer.',
                             2000,
                             'JavaScript Developer.',
                             2000,
-                            'Mern Stack Developer.',
-                            2000,
+
 
                         ]}
                             speed={50}
@@ -61,7 +64,7 @@ const Banner = () => {
                         viewport={{ once: false, amount: 0.7 }}
                         className='mb-auto mx-w-lg my-2 mx-8 
                             text-white  text-2xl:text-left lg:mx-0'>
-                        As a front-end developer, I specialize in creating visually appealing, responsive, and user-centric web interfaces. My expertise lies in translating design concepts into interactive and functional websites using HTML, CSS,JavaScript, ReactJs, NextJs ,TypeScript, Mongos. Strong background in management and leadership.
+                        As a Full-Stack Developer, I build scalable, high-performance web applications using React.js, Next.js, TypeScript, Node.js, Express.js, Prisma, PostgreSQL, and MongoDB. I create seamless, responsive user interfaces and robust backends, delivering end-to-end solutions with clean, maintainable code and a focus on performance and user experience.
 
                     </motion.p>
                     <motion.div
@@ -74,6 +77,7 @@ const Banner = () => {
 
                         {/* PopUpModal Button  */}
                         <PopupModal></PopupModal>
+
 
                         {/* TypeAnimation code  */}
                         <TypeAnimation sequence={[

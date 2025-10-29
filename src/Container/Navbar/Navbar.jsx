@@ -1,5 +1,6 @@
 import { Link } from "react-scroll";
 import logoName from '../../assets/w-logo2.png'
+
 const Navbar = () => {
     const navOption = <>
         <li>
@@ -48,7 +49,7 @@ const Navbar = () => {
                     </div>
 
                     <Link to='home' className=" flex  text-2xl text-pink-600 font-bold">
-                        <img className="h-14 w-14" src={logoName} alt="" /> <a >aheedul</a>
+                        <img className="h-14 w-14" src={logoName} alt="" /> <a >ahidul</a>
                     </Link>
 
 
